@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/* Base styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fffaf2;
@@ -14,27 +15,61 @@ body {
   padding: 40px 20px;
   display: flex;
   justify-content: center;
+  line-height: 1.6;
 }
 
+/* Shared container */
 .container {
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   background: #fff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   text-align: center;
 }
 
+/* Spacing between sections */
+.container > * + * {
+  margin-top: 24px;
+}
+
+/* Headings */
 h1 {
   font-size: 2.5em;
   color: #ff6f3c;
-  margin-bottom: 30px;
-  letter-spacing: 1px;
   font-weight: 800;
+  margin-bottom: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
 }
 
-/* Folder-style list */
+h3, h4 {
+  color: #ff7f50;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+/* List styles */
+ul, ol {
+  text-align: left;
+  padding-left: 1.5em;
+  margin-top: 12px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Folder-style homepage links */
 .folder-list {
   list-style: none;
   padding: 0;
@@ -68,7 +103,40 @@ h1 {
   color: #a8341e;
 }
 
-/* Folder emoji icon */
+/* Folder/emoji icons */
 .icon {
   font-size: 1.5em;
+}
+
+/* Images */
+img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* Videos */
+video {
+  margin-top: 16px;
+  border-radius: 12px;
+}
+
+/* Navigation link */
+.home-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #8833cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+/* Center align only the detailed instructions list */
+.instructions {
+  text-align: center;
+  padding-left: 0;
+  list-style-position: inside;
 }
