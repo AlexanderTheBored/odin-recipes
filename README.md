@@ -4,7 +4,7 @@ This project is off to a solid start — but there are a few key areas that coul
 
 ---
 
-## 💅 Code Formatting & Readability
+## Code Formatting & Readability
 
 - Install **Prettier** (or another code formatter) to automatically clean up indentation, line wrapping, spacing, etc.
 - Maintain consistent indentation (2 or 4 spaces — just pick one and stick with it).
@@ -15,7 +15,7 @@ This project is off to a solid start — but there are a few key areas that coul
 
 ---
 
-## 📁 Recommended File Structure
+## Recommended File Structure
 
 Organizing your project clearly makes collaboration easier and helps avoid broken links:
 
@@ -37,7 +37,7 @@ Try to avoid keeping everything in the root folder — keeping assets in dedicat
 
 ---
 
-## 🧼 CSS Best Practices
+## CSS Best Practices
 
 - Centralize styling in `index.css`.
 - Avoid inline styles or embedded `<style>` blocks.
@@ -72,7 +72,7 @@ Right now, some images are linked directly from external websites like AllRecipe
 
 ---
 
-## ♿ Accessibility & Semantic Tips
+## Accessibility & Semantic Tips
 
 - All `<img>` elements should include `alt=""` text — describe what’s in the image, or leave empty if decorative.
 - Use `<figure>` and `<figcaption>` for contextual images.
@@ -81,7 +81,7 @@ Right now, some images are linked directly from external websites like AllRecipe
 
 ---
 
-## 🧪 Running the Project Locally
+## Running the Project Locally
 
 ```bash
 1. Clone this repository
