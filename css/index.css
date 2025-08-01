@@ -1,0 +1,74 @@
+/* css/index.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf2;
+  color: #333;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ff6f3c;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+/* Folder-style list */
+.folder-list {
+  list-style: none;
+  padding: 0;
+}
+
+.folder-list li {
+  margin: 20px 0;
+}
+
+.folder-list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 20px;
+  background-color: #fff4e6;
+  border: 2px solid #ffe0b2;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #d9472b;
+  font-weight: 600;
+  font-size: 1.2em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.folder-list a:hover {
+  background-color: #ffe6cc;
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  color: #a8341e;
+}
+
+/* Folder emoji icon */
+.icon {
+  font-size: 1.5em;
+}
