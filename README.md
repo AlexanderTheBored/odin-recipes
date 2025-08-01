@@ -15,23 +15,24 @@ This project is off to a solid start — but there are a few key areas that coul
 
 ---
 
-## Recommended File Structure
+## 📁 Recommended File Structure
 
 Organizing your project clearly makes collaboration easier and helps avoid broken links:
 
+```
 odin-recipes/
 ├── index.html
 ├── css/
-│ └── index.css
+│   └── index.css
 ├── images/
-│ └── (local image files go here)
+│   └── (local image files go here)
 ├── videos/
-│ └── (any hosted video files)
+│   └── (any hosted video files)
 └── recipes/
-├── macaroni.html
-├── mangofloat.html
-└── spaghetti.html
-
+    ├── macaroni.html
+    ├── mangofloat.html
+    └── spaghetti.html
+```
 
 Try to avoid keeping everything in the root folder — keeping assets in dedicated folders is best practice.
 
